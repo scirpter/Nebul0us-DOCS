@@ -21,6 +21,9 @@ Nebul0us is a completely external, networked Nebulous.io cheat made from reverse
     > **Note**
     > You only need to do this after using the `dc`/`d` command.
 
+- `activate` - Activate/change your license key.
+    ###### Example: `activate SIG 0x123456789`
+
 - `jo` - Joins the lobby with the specified player ID or world name/password.
     ###### Example: `jo 12409385` or `jo goodapple123`
 
@@ -91,6 +94,17 @@ Nebul0us is a completely external, networked Nebulous.io cheat made from reverse
     ###### Example: `gettoken`
     > **Note**
     > You can list this token in your tokens.txt file and the bots will automatically sign in with it if you restart the script.
+
+- `gettokens` - Prints out all saved tokens from your tokens.txt and their index.
+    ###### Example: `gettokens`
+
+- `addtoken` - Adds a token to your tokens.txt.
+    ###### Example: `addtoken YOUR_TOKEN_HERE`
+
+- `removetoken` - Removes a token from your tokens.txt by index.
+    ###### Example: `removetoken 0` or `removetoken 1` or `removetoken 2`
+
+- `resynctokens` - Resyncs the current tokens you have in your tokens.txt with the bots' tokens to submit changes you made to the tokens.txt without having to restart the software.
 
 - `packetsearch` - Searches for a packet in the packet log, followed by the raw hex data of the specific packet segment. This only works if the *Trace packets* option is enabled.
     ###### Example: `packetsearch ffabcd` or `packetsearch bb58ac`
