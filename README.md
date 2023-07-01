@@ -42,12 +42,15 @@ Nebul0us is a completely external, networked Nebulous.io cheat made from reverse
     > **Note**
     > If you pass no arguments, the bots will stop feeding. To feed multiple targets at once, just use the && separator, e.g. `fe 12409385 && fe goodapple123`. The player with the lowest mass will be prioritized.
 
-- `sdndmaxmass` - Sets the maximum mass for all bots running on `dnd` by ejecting mass.
+- `sdndmaxmass` - Sets the maximum mass for all bots running on `dnd` by ejecting mass. **Set to 9e8 by default.**
     ###### Example: `sdndmaxmass 100000` or `sdndmaxmass 50000`
     > **Note**
     > All mass will be evenly distributed, which means that if e.g. the max is 50k, bot 1 has 25k and bot 2 has 30k, bot 2 will release 5k mass, bot 1 will release nothing.
 
 - `ex` - Force exits the program.
+
+- `savoidalgo` - Sets whether or not the bots should avoid other players. `y` for yes, `n` for no. **Set to `y` by default.**
+    ###### Example: `savoidalgo y` or `savoidalgo n`
 
 - `ch` - Sends a chat message with the specified text.
     ###### Example: `ch Bye World.`
