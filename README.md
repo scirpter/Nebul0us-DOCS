@@ -49,6 +49,11 @@ Nebul0us is a completely external, networked Nebulous.io cheat made from reverse
 
 - `ex` - Force exits the program.
 
+- `smoddetection` - Sets whether or not the bots should detect moderators. `y` for yes, `n` for no. **Set to `y` by default.**
+    ###### Example: `smoddetection y` or `smoddetection n`
+    > **Note**
+    > This only detects mods via chat and the player list. It does not detect mods that join the lobby invisibly, so this is unreliable.
+
 - `fo` - Follows a player and chills next to them.
     ###### Example: `fo 12409385` or `fo goodapple123` or `fo`
     > **Note**
