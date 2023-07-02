@@ -49,6 +49,11 @@ Nebul0us is a completely external, networked Nebulous.io cheat made from reverse
 
 - `ex` - Force exits the program.
 
+- `fo` - Follows a player and chills next to them.
+    ###### Example: `fo 12409385` or `fo goodapple123` or `fo`
+    > **Note**
+    > If you pass no arguments, the bots will stop following.
+
 - `savoidalgo` - Sets whether or not the bots should avoid other players. `y` for yes, `n` for no. **Set to `y` by default.**
     ###### Example: `savoidalgo y` or `savoidalgo n`
 
