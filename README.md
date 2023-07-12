@@ -118,8 +118,8 @@ Nebul0us is a completely external, networked Nebulous.io cheat made from reverse
 - `addtoken` - Adds a token to your tokens.txt.
     ###### Example: `addtoken YOUR_TOKEN_HERE`
 
-- `removetoken` - Removes a token from your tokens.txt by index.
-    ###### Example: `removetoken 0` or `removetoken 1` or `removetoken 2`
+- `deletetoken` - Removes a token from your tokens.txt by index.
+    ###### Example: `deletetoken 0` or `deletetoken 1` or `deletetoken 2`
 
 - `resynctokens` - Resyncs the current tokens you have in your tokens.txt with the bots' tokens to submit changes you made to the tokens.txt without having to restart the software.
 
