@@ -125,9 +125,13 @@ Nebul0us is a completely external, networked Nebulous.io cheat made from reverse
 
 - `addproxy` - Adds a proxy to your proxies.txt.
     ###### Example: `addproxy 127.0.0.1:8080:username:password`
+    > **Note**
+    > Restart the script after adding a proxy to apply the changes.
 
 - `deleteproxy` - Removes a proxy from your proxies.txt by index.
     ###### Example: `deleteproxy 0` or `deleteproxy 1` or `deleteproxy 2`
+    > **Note**
+    > Restart the script after adding a proxy to apply the changes.
 
 - `getproxies` - Prints out all saved proxies from your proxies.txt and their index.
     ###### Example: `getproxies`
