@@ -123,6 +123,15 @@ Nebul0us is a completely external, networked Nebulous.io cheat made from reverse
 
 - `resynctokens` - Resyncs the current tokens you have in your tokens.txt with the bots' tokens to submit changes you made to the tokens.txt without having to restart the software.
 
+- `addproxy` - Adds a proxy to your proxies.txt.
+    ###### Example: `addproxy 127.0.0.1:8080:username:password`
+
+- `deleteproxy` - Removes a proxy from your proxies.txt by index.
+    ###### Example: `deleteproxy 0` or `deleteproxy 1` or `deleteproxy 2`
+
+- `getproxies` - Prints out all saved proxies from your proxies.txt and their index.
+    ###### Example: `getproxies`
+
 - `packetsearch` - Searches for a packet in the packet log, followed by the raw hex data of the specific packet segment. This only works if the *Trace packets* option is enabled.
     ###### Example: `packetsearch ffabcd` or `packetsearch bb58ac`
     > **Note**
